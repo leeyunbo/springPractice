@@ -11,6 +11,11 @@
 	<context:component-scan base-package="com.leeyunbo.biz"></context:component-scan>
 	
 	<bean id="log" class="com.leeyunbo.biz.common.Log4jAdvice"></bean>
+	<bean id="before" class="com.leeyunbo.biz.common.BeforeAdvice"></bean>
+	<bean id="afterReturning" class="com.leeyunbo.biz.common.AfterReturning"></bean>
+	<bean id="afterThrowing" class="com.leeyunbo.biz.common.AfterThrowing"></bean>
+	<bean id="after" class="com.leeyunbo.biz.common.AfterDevice"></bean>
+	<bean id="around" class="com.leeyunbo.biz.common.AroundAdvice"></bean>
 	
 	<aop:config>
 		<aop:pointcut id="allPointcut"
@@ -19,9 +24,41 @@
 		<aop:pointcut id="getPointcut"
 				expression="execution(* com.leeyunbo.biz..*Impl.get*(..))"/>
 				
+		<aop:aspect ref="around">
+			<aop:around pointcut-ref="allPointcut" method="aroundLog"></aop:around>
+		</aop:aspect>
+		
+		<!--  
+		<aop:aspect ref="afterThrowing">
+			<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog"/>
+		</aop:aspect>	
+		
+		
+		<aop:aspect ref="after">
+			<aop:after pointcut-ref="allPointcut" method="finallyLog"></aop:after>
+		</aop:aspect>
+		
+		
+			
+
+		<aop:aspect ref="afterReturning">
+			<aop:after-returning pointcut-ref="allPointcut" method="afterLog"></aop:after-returning>
+		</aop:aspect>
+
+
 		<aop:aspect ref="log">
 			<aop:before pointcut-ref="allPointcut" method="printLogging"/>
 		</aop:aspect>
+
+		
+
+		<aop:aspect ref="before">
+			<aop:before pointcut-ref="allPointcut" method="beforeLog"/>
+		</aop:aspect>
+		-->
+		
+		
+		
 	</aop:config>
 	
 </beans>
