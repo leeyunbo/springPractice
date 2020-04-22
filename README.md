@@ -12,6 +12,7 @@ Spring Framework 학습을 위한 레포지토리
 ```
   1. Spring Framework에 대한 전체적인 이해 
   2. Spring IoC 
+  3. Spring AoP
 ```
 
 ### 프로젝트
