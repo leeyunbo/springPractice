@@ -13,6 +13,7 @@ import com.leeyunbo.biz.user.UserService;
 import com.leeyunbo.biz.user.UserVO;
 import com.leeyunbo.biz.user.impl.UserServiceImpl;
 
+
 public class UserServiceClient {
 	public static void main(String[] args) {
 		//1. Spring 컨테이너 구동 
@@ -21,12 +22,12 @@ public class UserServiceClient {
 		
 		//2. Spring 컨테이너로부터 UserServiceImpl Lookup 
 		UserService userService =
-				(UserServiceImpl) container.getBean("userService");
+				(UserService) container.getBean("userService");
 		
 		//3. 로그인 기능 테스트 
 		UserVO vo = new UserVO(); 
-		vo.setId("leeyun");
-		vo.setPassword("leeyun");
+		vo.setId("test");
+		vo.setPassword("test123");
 		UserVO user = userService.getUser(vo);
 		if(user != null) {
 			System.out.println(user.getName() + " 님 환영합니다.");
