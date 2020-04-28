@@ -33,5 +33,6 @@ Spring Framework 학습을 위한 레포지토리
 
 ### 프로젝트
   1. Spring IoC를 활용한 커뮤니케이션 웹 [BoardWeb](https://github.com/leeyunbo/BoardWeb "github repository link")
-  2. Spring IoC, AoP를 활용한 Model1 구조 커뮤니케이션 웹
+  2. Model1 구조 커뮤니케이션 웹
+  3. Model2 구조 커뮤니케이션 웹
 
