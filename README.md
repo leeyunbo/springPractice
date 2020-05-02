@@ -29,6 +29,16 @@ Spring Framework 학습을 위한 레포지토리
     3-5. AoP 에노테이션 
     3-6. Spring JDBC 
     3-7. Spring Transaction
+    
+  4. Model1, Model2, MVC 
+    4-1 Model1 구조 학습 
+    4-2 Model2 구조 학습
+    4-3 MVC Framework 구조 학습
+    
+  5. Spring MVC Framework  
+    5-1 DispatcherServlet 등록 및 동작 방식 
+    5-2 Spring 설정 파일 등록 
+    5-3 Controller 및 HandlerMapping 등록
 ```
 
 ### 프로젝트
