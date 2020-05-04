@@ -39,6 +39,8 @@ Spring Framework 학습을 위한 레포지토리
     5-1 DispatcherServlet 등록 및 동작 방식 
     5-2 Spring 설정 파일 등록 
     5-3 Controller 및 HandlerMapping 등록
+    5-4 ViewResolver 설정 
+    5-5 Spring MVC Framework 에노테이션 설정
 ```
 
 ### 프로젝트
