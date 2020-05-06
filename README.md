@@ -1,4 +1,4 @@
-# springPractice
+# Spring Framework
 
 
 ### 레포지토리 소개
