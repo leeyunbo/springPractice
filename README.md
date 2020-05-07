@@ -41,6 +41,7 @@ Spring Framework 학습을 위한 레포지토리
     5-3 Controller 및 HandlerMapping 등록
     5-4 ViewResolver 설정 
     5-5 Spring MVC Framework 에노테이션 설정
+    5-6 비즈니스 컴포넌트 
 ```
 
 ### 프로젝트
