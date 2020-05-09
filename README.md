@@ -42,6 +42,7 @@ Spring Framework 학습을 위한 레포지토리
     5-4 ViewResolver 설정 
     5-5 Spring MVC Framework 에노테이션 설정
     5-6 비즈니스 컴포넌트 
+    5-7 Mybatis
 ```
 
 ### 프로젝트
