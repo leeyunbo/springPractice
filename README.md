@@ -50,4 +50,5 @@ Spring Framework 학습을 위한 레포지토리
   2. Model1 구조 커뮤니케이션 웹 [BoardWebModel1](https://github.com/leeyunbo/BoardWebModel1 "github repository link")
   3. MVC 구조 커뮤니케이션 웹 [BoardWebMVC](https://github.com/leeyunbo/BoardWebMVC "github repository link")
   4. Spring MVC Framework를 활용한 커뮤니케이션 웹 [BoardWebSpringMVC](https://github.com/leeyunbo/BoardWebSpringMVC "github repository link")
+  5. Spring Boot를 활용한 커뮤니케이션 웹 [SpringBootPractice](https://github.com/leeyunbo/SpringBootPractice "github repository link")
 
