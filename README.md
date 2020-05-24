@@ -51,4 +51,4 @@ Spring Framework 학습을 위한 레포지토리
   3. MVC 구조 커뮤니케이션 웹 [BoardWebMVC](https://github.com/leeyunbo/BoardWebMVC "github repository link")
   4. Spring MVC Framework를 활용한 커뮤니케이션 웹 [BoardWebSpringMVC](https://github.com/leeyunbo/BoardWebSpringMVC "github repository link")
   5. Spring Boot를 활용한 커뮤니케이션 웹 [SpringBootPractice](https://github.com/leeyunbo/SpringBootPractice "github repository link")
-
+  6. Spring Boot를 활용한 이상형 월드컵 Rest Api 개발 [IdealWorldCup_BE](https://github.com/ezzooooo/IdealWorldcup_BE "github repository link")
